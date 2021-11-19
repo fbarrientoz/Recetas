@@ -23,15 +23,33 @@
 
         <!-- enlaces -->
         <div class="collapse navbar-collapse" id="opciones">
+            <hr />
+            <div class="container">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a style="font-size: 25px; color: black;" class="nav-link" href="@Url.Action("Index","Home")"> <i class="fas fa-home"></i> Página Principal</a>
+                    </li>
+                    <li class="nav-item">
+                        <a style="font-size: 25px; color: black;" class="nav-link" href="@Url.Action("Index","Recetas")"> <i class="fas fa-book"></i> Todas las recetas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a style="font-size: 25px; color: black;" class="nav-link" href="@Url.Action("Index","Suscribir")"> <i class="fas fa-dollar-sign"></i> Suscripción (sin función)</a>
+                    </li>
+                </ul>
+            </div>
+            <hr />
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link" href="@Url.Action("Index","Home")">Página Principal</a>
+                    <b><a class="nav-link" href="@Url.Action("Index","Home")"> <i class="fas fa-long-arrow-alt-right"></i> Acerca de nosotros</a></b>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="~/Recetas/Index">Todas las recetas</a>
+                    <b><a class="nav-link" href="@Url.Action("Index","Recetas")"> <i class="fas fa-long-arrow-alt-right"></i> Contacto</a></b>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="~/Account/Suscripcion">Suscripción (sin función)</a>
+                    <b><a class="nav-link" href="@Url.Action("Index","Suscribir")"> <i class="fas fa-long-arrow-alt-right"></i> Preguntas frecuentes</a></b>
+                </li>
+                <li class="nav-item">
+                    <b><a class="nav-link" href="@Url.Action("Index","Suscribir")"> <i class="fas fa-long-arrow-alt-right"></i> Terminos y condiciones</a></b>
                 </li>
             </ul>
         </div>

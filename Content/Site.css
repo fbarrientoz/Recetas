@@ -8,6 +8,14 @@
     color:white;
 }
 
+.btn-guardar {
+    background-color: #FFFFFF;
+    border-color: black;
+    border-radius: 5px;
+    color: black;
+    font-size: 25px;
+}
+
 .titular {
     color: #FFFFFF;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -31,6 +39,7 @@
 
 .filtro i{
     font-size:25px;
+    color: #000000
 }
 
 .filtro a {
@@ -50,4 +59,13 @@
     border-radius: 50%;
     text-align: center;
     vertical-align: middle;
+}
+
+.regresar {
+    font-size: 18px;
+    color: #000000;
+}
+
+.menustyle {
+    color: black;
 }

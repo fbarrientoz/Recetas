@@ -1,5 +1,7 @@
-﻿body {
+﻿@import url('https://fonts.googleapis.com/css2?family=Iceland&display=swap');
+body {
     background-color: #eaeaea !important;
+    font-family: 'Iceland', cursive;
 }
 
 .btn-busqueda {

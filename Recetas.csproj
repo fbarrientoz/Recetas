@@ -190,6 +190,8 @@
     <Content Include="Content\img\Login.jpg" />
     <Content Include="Content\img\pancakes-g78350d728_1920 2.png" />
     <Content Include="Content\img\Panqueque_frutos_rojos.jpg" />
+    <Content Include="Content\img\Premium-anual.png" />
+    <Content Include="Content\img\Premium-mensual.png" />
     <Content Include="Content\img\selective-focus-shot-of-mexican-style-delicious-pork-flautas-on-white-plate 3.png" />
     <Content Include="Content\img\wood-gd524c74c1_1920 3.png" />
     <Content Include="favicon.ico" />
@@ -246,10 +248,10 @@
     <Content Include="Views\Recetas\Index.cshtml" />
     <Content Include="Views\Recetas\Detail.cshtml" />
     <Content Include="Views\Perfil\Index.cshtml" />
+    <Content Include="Views\Suscripcion\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Views\Suscripcion\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />

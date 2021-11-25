@@ -1,0 +1,82 @@
+﻿@model Recetas.Models.Receta
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Receta</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Nombre)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Nombre)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Categoria)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Categoria)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ingredientes)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ingredientes)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Descripcion)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Descripcion)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Tiempo_Elaboracion)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Tiempo_Elaboracion)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Dificultad)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Dificultad)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Calorias)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Calorias)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Foto)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Foto)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

@@ -1,0 +1,47 @@
+﻿@model Recetas.Models.Receta
+
+<div style="background-color: rgba(254, 156, 83, 0.88); padding:20px;">
+    <i class="fas fa-arrow-left"></i> <a class="regresar" href="@Url.Action("Index","Recetas")">Regresar</a>
+    <br />
+    <div style="background-color: rgba(255, 255, 255, 1); padding: 10px; border-radius: 15px;">
+        <div style="height: 320px; border-radius: 10px; background-repeat: no-repeat; background-size: cover; background-image: url('/Content/img/Panqueque_frutos_rojos.jpg')">
+            <div style="padding-top:70px; padding-left:20px; padding-right:20px;">
+            </div>
+        </div>
+        <div class="container">
+            <br />
+            <h1 class="Titulo_Principal">@Model.Nombre</h1>
+            <div class="row">
+                <div class="col-6">
+                    <p>Dificultad: @Model.Dificultad</p>
+                    <p>Tiempo: @Model.Tiempo_Elaboracion</p>
+                </div>
+                <div class="col-6">
+                    <button type="button" class="btn btn-guardar far fa-folder"> Guardar</button>
+
+                </div>
+            </div>
+            <br />
+            <div class="row">
+                <div class="col-md-12">
+                    <p><b>Ingredientes</b></p>
+                    <p>@Model.ingredientes</p>
+                </div>
+            </div>
+            <br />
+            <div class="row">
+                <div class="col-md-12">
+                    <p><b>Método de Preparación</b></p>
+                    <p>@Model.Descripcion</p>
+                </div>
+            </div>
+            <br />
+            <br />
+        </div>
+    </div>
+</div>
+
+<div class="container" style="padding: 30px;">
+    <h1 class="Titulo_Principal">¡Califica esta receta!</h1>
+    <i style="color: gold" class="fas fa-star"></i> <i style="color: gold" class="far fa-star"></i> <i style="color: gold" class="far fa-star"></i> <i style="color: gold" class="far fa-star"></i> <i style="color: gold" class="far fa-star"></i>
+</div>

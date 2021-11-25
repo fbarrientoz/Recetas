@@ -1,0 +1,29 @@
+﻿
+@{
+    ViewBag.Title = "Pago";
+}
+
+<h1 style="padding: 10px;">Suscripción</h1>
+<hr />
+<div style="background-color: rgba(255, 255, 255, 1); padding: 10px; border-radius: 15px;">
+    <div class="row">
+        <div class="col-md-12">
+            <p style="font-size: 30px;">Nombre en tarjeta</p>
+            <input class="form-control" type="text" placeholder="Ej. JUANA SOFÍA GUTIÉRREZ MÉNDEZ">
+            <p style="font-size: 30px;">Número de tarjeta</p>
+            <input class="form-control" type="text" placeholder="#### #### #### ####">
+            <p style="font-size: 30px;">Fecha de vencimiento</p>
+            <input class="form-control" type="text" placeholder="Mes/Año">
+            <p style="font-size: 30px;">Código de seguridad</p>
+            <input class="form-control" type="text" placeholder="###">
+            <div class="row" style="padding: 15px;">
+                <div class="col-6">
+                    <a href="@Url.Action("Index","Suscripcion")"><button type="button" class="btn btn-cancelar">Cancelar</button></a>
+                </div>
+                <div class="col-6">
+                    <a href="@Url.Action("Index","Home")"><button type="button" class="btn btn-suscribir">¡Suscribir!</button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

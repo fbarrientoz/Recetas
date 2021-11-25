@@ -34,9 +34,9 @@
             </div>
             <div class="col-8" style="background-color:#ffffff; border-radius: 10px; ">
                 <h1 class="titulo">@item.Nombre</h1>
-                <p style="margin-bottom:0px;" class="descripcion">Dificultad: @item.Dificultad</p>
-                <p style="margin-bottom:0px;" class="descripcion">Duracion: @item.Tiempo_Elaboracion</p>
-
+                <p style="margin-bottom:0px; color: black;" class="descripcion"><b>Dificultad:</b> @item.Dificultad</p>
+                <p style="margin-bottom:0px; color: black;" class="descripcion"><b>Duracion:</b> @item.Tiempo_Elaboracion</p>
+                <p style="margin-bottom:0px; color: black;" class="descripcion"><b>Calorías:</b> @item.Calorias</p>
             </div>
         </div>
     </a>
@@ -77,12 +77,10 @@
     </div>
     <hr />*@
 
-
-
     <div style="height:244px; background-repeat:no-repeat; background-size:cover;  background-image:url('/Content/img/wood-gd524c74c1_1920 3.png')">
         <div style="padding-top:70px; padding-left:20px; padding-right:20px;">
             <h1 class="titular">Descubre los beneficios que tenemos para ti por sólo $49.00 pesos al mes</h1>
-            <button type="button" class="btn btn-busqueda">Suscribete</button>
+            <a href="@Url.Action("Index","Suscripcion")"><button type="button" class="btn btn-busqueda">Suscribete</button></a>
         </div>
     </div>
 </div>

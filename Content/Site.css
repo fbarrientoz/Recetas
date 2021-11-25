@@ -10,6 +10,20 @@ body {
     color:white;
 }
 
+.btn-suscribir {
+    background-color: rgba(254, 156, 83, 0.88);
+    border-radius: 10px;
+    color: white;
+    font-size: 25px;
+}
+
+.btn-cancelar {
+    background-color: red;
+    border-radius: 10px;
+    color: white;
+    font-size: 25px;
+}
+
 .btn-guardar {
     background-color: #FFFFFF;
     border-color: black;

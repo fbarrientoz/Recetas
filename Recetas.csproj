@@ -302,6 +302,7 @@
     <Content Include="Views\IngredientesAdmin\Edit.cshtml" />
     <Content Include="Views\IngredientesAdmin\Index.cshtml" />
     <Content Include="Views\Recetas\Detail_Receta.cshtml" />
+    <Content Include="Views\Suscripcion\Pago.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
